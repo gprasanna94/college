@@ -9,6 +9,7 @@ import javax.persistence.Id;
 public class Branch {
     @Id
 	private int sNo;
+    
     @Column
 	private String branchName;
 	@Column
